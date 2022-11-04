@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100000;
+    background-color: #E3E2DF;
+    width: 100%;
+    height: 70px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #000000;
+     padding: 0 20px;
+}
+
+.navbar a:hover{
+background-color: #D2042D;
+color: white;
+border-radius: 10px;
+}
+
+
+.companyLogo p{
+    padding-left: 20px;
+    font-size: 25px;
+
+}
+.searchbar{
+    width: 30rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.cartlogo a {
+    text-decoration: none;
+    color: black;
+}
+.cartlogo a img{
+    height: 40px;
+    width: 40px;
+}
+
+.product-section{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 85%;
+   margin: auto;
+   padding-top: 100px;
+   
+}
+
+
+.footer{
+    display: flex;
+    background-color: black; 
+    color: #fff;
+    width: 100%;
+    height: 25rem;
+    margin-top: 50px;
+}  
+
+.copywright{
+    background-color: #f8f8f8; 
+    text-align: center;
+}
+
+.footer-logo{
+ flex-shrink: 2;
+ width: 100%;
+ padding-left:20px;
+ padding-top: 30px;
+}
+
+.foot{
+    display: block;
+    flex-shrink: 1;
+    width: 100%;
+    padding-top:60px ;
+    padding-right:50px;
+}
+
+.hori-line p{
+text-align: right;
+}
+
+.footer-details{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.footer-logo h1 {
+    font-size:60px ;
+    font-weight:900;
+    
+}
+
+.icons {
+    font-size: 30px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button a:hover{
+    color: white;
+}
+
+.collections{
+    width: 70%;
+    margin: auto;
+}
+
+.more_collections{
+   display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+     width: 100%;
+     gap: 10px;
+    
+}
+
